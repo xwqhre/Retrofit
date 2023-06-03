@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context="com.FirstFragment">
+
+    <EditText
+        android:id="@+id/ed_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="first"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/ed_second"
+        android:hint="second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/btn_calc"
+        android:text="calculate"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
